@@ -1,0 +1,63 @@
+.textAlign{
+    text-align: center;
+}
+img{
+    width: 10%;
+    margin: auto;
+    border: 1px solid azure;
+}
+body{
+    background-image: url(images/1897052.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h1{
+    color: azure;
+    
+}
+.header-logo{
+    padding: 10px;
+    padding-left: 0%;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    
+}
+.content{
+    background: white;
+    width: 50%;
+    padding: 40px;
+    margin: 100px auto;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0 0;
+}
+.header{
+    color: black;
+    text-align: center;
+}
+.top{
+    padding-top: 0 auto;
+    border-top: 2px solid rgb(3, 3, 205);
+}
+/* h5{
+    color: aliceblue;
+    text-align: center;
+    padding: 0;
+    background-color: rgb(3, 3, 205);
+    opacity: 0.8;
+    line-height: 50px;
+    margin: 15px ;
+} */
+.home {
+    text-align: center;
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+    cursor: pointer;
+    margin-top: 30%;
+  }
