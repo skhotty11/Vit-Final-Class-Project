@@ -6,20 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services Page</title>
     <link rel="stylesheet" href="details.css">
+    <script src="demo.js" defer></script>
 </head>
 <body>
     <main>
         <div class="container">
-            <div class="header-items">
+            <div class="header-items1">
               <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="services.html">Services</a>
+                <a title="Home" href="index.html">Home</a>
+                <a title="About Us" href="about.html">About</a>
+                <a title="Services" href="services.html">Services</a>
               </nav>
             </div>
-            <h1>Services</h1>
-            <div class="header-logo">
-                <a href="./index.ntml"><img src="./images/fbi logo.jpg" alt="fbi logo test" /></a>
+            <div class="fixed">
+                <h1>Services</h1>
+                <div class="header-logo">
+                    <a href="./index.html"><img title="Back to Home" onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="./images/fbi logo.jpg" alt="fbi logo test"/></a>
+                </div>
             </div>
         </div>
     </main> 
@@ -42,8 +45,9 @@
             <p>The FBI Academy, dedicated to being the world’s premier law enforcement learning and research center and an advocate for law enforcement’s best practices worldwide, is operated by the Bureau’s Training Division. Situated on 547 acres within the immense Marine Corps Base in Quantico, Virginia, the FBI Academy is just one of many facets of the Training Division, whose work reaches far beyond the confines of the campus grounds.</p>
         <div></div>
         <div class="textAlign">
-            <button class="home" onclick="window.location.href='./index.html'">Home</button>
-            <button class="about" onclick="window.location.href='./about.html'">About</button>
+            <button title="Back to Home" class="home" onclick="window.location.href='./index.html'">Home</button>
+            <button title="Back to About Us" class="about" onclick="window.location.href='./about.html'">About</button>
+            <button title="Go to Top" onclick="topFunction()" id="myBtn">Top</button>
         </div>
     </div>
 </body>

@@ -1,3 +1,6 @@
+.fixed{
+    position: fixed;
+}
 .textAlign{
     text-align: center;
 }
@@ -20,6 +23,8 @@ h1{
 .header-logo{
     padding: 10px;
     padding-left: 0%;
+    width: 50%;
+    position: fixed;
 }
 
 .image{
