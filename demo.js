@@ -4,9 +4,10 @@ function security(){
     console.log(input)
 
     let input2 = document.getElementById("secondInput").value;
+    console.log(input2)
 
     if(input === "12345" & input2 === "zxasqw"){
-        console.log("Logged in")
+        console.log("Login Successful")
         alert("Welcome! Login Successful.")
         location.href = "https://bruno-simon.com/";//redirected to new url
     }

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Account Login Project</title>
+    <link rel="icon" href="./images/fbi logo.png" type="image/gif" sizes="32x32">
     <link rel="stylesheet" href="details.css">
     <script src="demo.js" defer></script>
 </head>
@@ -22,17 +23,18 @@
     </main>
     <h1>Account Login</h1>
     <div ><img src="./images/pexels-photo-3116114.jpeg" alt=""></div><br><br>
-    <div >
-      <label for="usr"></label>
-      <input title="Default Badge Number: 12345" type="number" id="usr" name="usr" minlength="11" maxlength="11"  placeholder="Enter Badge Number" required>
-    </div>
-    <br>
-    <div >
-      <label for="secondInput"></label>
-      <input title="Default Password: zxasqw" type="password" id="secondInput" name="secondInput" placeholder="Enter Password"  minlength="8" required>
-    </div>
-    <br>
-    <div ><button title="Login" onclick="security()" id="bt">Login</button></div>
-
+      <div >
+        <label for="usr"></label>
+        <input title="Default Badge Number: 12345" type="number" id="usr" name="usr" minlength="5" maxlength="11"  placeholder="Enter Badge Number" required>
+      </div>
+      <br>
+      <div >
+        <label for="secondInput"></label>
+        <input title="Default Password: zxasqw" type="password" id="secondInput" name="secondInput" placeholder="Enter Password"  minlength="6" required>
+      </div>
+      <br>
+      <div >
+        <button type="submit" title="Login" onclick="security()" id="bt">Login</button>
+      </div>
 </body>
 </html>
