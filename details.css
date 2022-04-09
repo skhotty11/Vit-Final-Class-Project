@@ -40,7 +40,7 @@ h1{
     border: 2px solid black;
     box-shadow: 5px 5px 0 0;
 }
-.header{
+.header, .header1{
     color: black;
     text-align: center;
 }
@@ -64,5 +64,25 @@ h1{
     -o-transition: all 0.1s;
     transition: all 0.1s;
     cursor: pointer;
-    margin-top: 30%;
+    margin-top: 10%;
+  }
+  a:link {
+    color: aliceblue;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: gray;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: gold;
+  }
+  .fan{
+    margin: 0;
+    padding-top: 0;
+  }
+  .header1 {
+      padding-bottom: 5%;
   }
